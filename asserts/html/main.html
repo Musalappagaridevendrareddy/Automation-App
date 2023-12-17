@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automate Tasks</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <div class="gradient-border" id="box">
+        <img src="../images/automation.jpeg" alt="automation">
+        <div class="articles">
+            <div class="art">
+                <article>This helps you to automate the tasks with out human persence</article>
+            </div>
+            <div class="art">
+                <article>Yours tasks will be recored. And you can use any time</article>
+            </div>
+        </div>
+        <div class="grid-align">
+                <div class="left">
+                    <label for="quantity">Number on clicks:</label>
+                    <input type="number" id="quantity1" name="quantity1" min="1" value="1" required>
+                    <br>
+                    <label>Name your Task:</label>
+                    <input type="text" id="taskName" name="task1" required>
+                    <br>
+                    <div class="drop">
+                        <label class="select-ele">Intrested to type:
+                            <select class="dropDown" name="dropDown" required>
+                            <option value="">Yes/No</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+        </div>
+        <br>
+        <button class='submit' type="submit">Submit</button>
+        <div class="result"></div>
+    </div>
+    <script src="../js/renderer.js"></script>
+</body>
+</html>
